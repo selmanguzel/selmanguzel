@@ -4,4 +4,6 @@ dosya=open("selman.json","r")
 json_dosya=json.load(dosya)
 print("API KEY:",json_dosya["ad"])
 print("API KEY:",json_dosya["soyad"])
+print("odevde 6. adim uygulandi")
 print("API KEY:",json_dosya["access_token"])
+
